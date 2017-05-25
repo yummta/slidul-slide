@@ -1,0 +1,23 @@
+{
+  "name": "slidul-slide",
+  "version": "1.0.0",
+  "description": "Another slider more.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./frontend/main.js --watch --presets es2015 --out-file ./dist/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yummta/slidul-slide.git"
+  },
+  "author": "@JanetHugarcia @yummta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yummta/slidul-slide/issues"
+  },
+  "homepage": "https://github.com/yummta/slidul-slide#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
