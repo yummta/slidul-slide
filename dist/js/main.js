@@ -1,5 +1,5 @@
 "use strict";
 
-var a = function a() {
-  return console.log(":)");
-};
+var b = [1, 2, 3, 4].map(function () {
+  console.log("-s");
+});
